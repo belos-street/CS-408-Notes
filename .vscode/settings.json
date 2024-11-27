@@ -3,6 +3,8 @@
     "*.jsx": "javascriptreact",
     "*.html": "html",
     "stdio.h": "c",
-    "stdlib.h": "c"
+    "stdlib.h": "c",
+    "stdbool.h": "c",
+    "string.h": "c"
   }
 }
