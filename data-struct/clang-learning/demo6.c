@@ -14,7 +14,6 @@
 
 int main(void) {
   int arr[] = {10, 20, 30};
-  int *p = arr; // 定义指针，指向数组首地址（等价于 &arr[0]）
 
   printf("修改前: ");
   for (int i = 0; i < 3; i++) {
@@ -22,7 +21,7 @@ int main(void) {
   }
   printf("\n");
 
-  // 用指针遍历数组，将每个元素乘以 2
+  int *p = arr; // 定义指针，指向数组首地址（等价于 &arr[0]）
   for (int i = 0; i < 3; i++) {
     *(p + i) = *(p + i) * 2; // 等价于 arr[i] = arr[i] * 2
   }
